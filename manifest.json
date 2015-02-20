@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Copy Select",
+  "description": "Creates a ContextMenu(right-click menu), which enables you to copy values/texts from a <select> element to your clipboard.",
+  "version": "0.2.1",
+
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "<all_urls>"
+  ],
+
+  "icons": {
+    "16": "copy-select.16.png",
+    "32": "copy-select.32.png",
+    "48": "copy-select.48.png",
+    "128": "copy-select.128.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["select.js"]
+  }]
+}
