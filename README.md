@@ -4,7 +4,8 @@ Creates a ContextMenu(right-click menu), which enables you to copy values/texts 
 
 ##Installation
 Grab the extenstion (.crx file) and install it to your Google Chrome Browser.
-Open "More Tools" -> "Extensions" and drap and drop the .crx-file there. 
+
+Open "More Tools" -> "Extensions" and drag and drop the .crx-file there. 
 Accept the dialog and you are ready to go.
 
 ##Usage
