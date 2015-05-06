@@ -3,7 +3,9 @@
 Creates a ContextMenu(right-click menu), which enables you to copy values/texts from a `<select>` element to your clipboard.
 
 ##Installation
-Grab the extenstion and install it to your Google Chrome Browser
+Grab the extenstion (.crx file) and install it to your Google Chrome Browser.
+Open "More Tools" -> "Extensions" and drap and drop the .crx-file there. 
+Accept the dialog and you are ready to go.
 
 ##Usage
 1. Click on any select dropdown element on a webpage
